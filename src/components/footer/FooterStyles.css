@@ -63,11 +63,9 @@
 }
 
 .footer form {
-    
-    width: 300%;
+    width: 100%;
     margin-bottom: .6rem;
     position: relative;
-    
 }
 
 .footer form input {
@@ -94,7 +92,9 @@
     color: #aaa;
     cursor: pointer;
 }
-
+.footeraddress p{
+    font-size: 15px;
+}
 .footer form .social-icon {
     margin: 1rem 1rem 1rem 0;
     padding: .6rem;

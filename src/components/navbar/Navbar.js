@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { SiDatabricks } from 'react-icons/si'
+import SiteLogo  from '../../assets/SiteLogo.png';
 import { FaBars, FaTimes } from 'react-icons/fa'
 import {Link} from 'react-router-dom'
 import './NavbarStyles.css'
@@ -13,7 +13,8 @@ const Navbar = () => {
         <div name='top' className='navbar'>
             <div className="container">
                 <div className="logo">
-                    <SiDatabricks className='icon' />
+                    <div className='icon'>
+                <img src= { SiteLogo } alt="sitelogo" /></div>
                     <h1>Serpsit</h1>
                 </div>
 

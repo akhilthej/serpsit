@@ -19,6 +19,7 @@ const About = () => {
                 <div><button>Email</button></div>
                 </div>
             </div>
+            
         </div>
     )
 }

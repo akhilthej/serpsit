@@ -8,6 +8,10 @@ const Contact = () => {
                 <div className="form-container">
                     <form>
                         <h1><span>Contact</span> Us</h1>
+                        <div className='footeraddress'><p>Email : info@serpsit.com</p>
+                         <p>Call : 7730084402</p>
+                         <p>Open Timings : Monday –Friday (10am-6pm)</p>
+                         <p>Location : Plot No.51, 8-2-584/1/B, Road No.9 Banjara Hills, Hyderabad,Telangana.</p></div>
                         <div>
                             <label>Name</label>
                             <input type="text" placeholder='Enter your name'/>

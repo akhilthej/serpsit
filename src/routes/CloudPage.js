@@ -9,7 +9,9 @@ const CloudPage = () => {
         <>
            <Navbar /> 
            <Cloud />
+           
            <Footer />
+           
         </>
     )
 }

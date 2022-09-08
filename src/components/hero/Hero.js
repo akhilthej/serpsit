@@ -9,7 +9,7 @@ const Hero = () => {
                     <h1>Connect Digital</h1>
                     <h1 className='blue'>world</h1>
                     <h1>with us.</h1>
-                    <div><button>Learn More</button></div>
+                    
                 </div>
             </div>
         </div>
