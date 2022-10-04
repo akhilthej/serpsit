@@ -1,0 +1,17 @@
+{
+  "ignoreUnresolved": [],
+  "ignoreUnused": [
+    "@babel/preset-env",
+    "@testing-library/jest-dom",
+    "@testing-library/react",
+    "@testing-library/user-event",
+    "framer-motion",
+    "npm-check",
+    "react-intersection-observer",
+    "react-scripts",
+    "react-use-scroll",
+    "styled-components",
+    "web-vitals"
+  ],
+  "ignoreUnimported": []
+}

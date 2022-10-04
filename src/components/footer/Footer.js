@@ -1,6 +1,6 @@
 import React from 'react'
 import { BsFillArrowUpCircleFill } from 'react-icons/bs'
-import { FiMail, FiFacebook, FiGithub, FiInstagram, FiLinkedin, FiDribbble } from 'react-icons/fi'
+import { FiMail, FiFacebook, FiGithub, FiInstagram, FiLinkedin } from 'react-icons/fi'
 import './FooterStyles.css'
 import SiteLogo  from '../../assets/SiteLogo.png';
 

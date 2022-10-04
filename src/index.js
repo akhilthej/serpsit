@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 
-import {BrowserRouter, Routes, Route} from 'react-router-dom'
+import {HashRouter, Routes, Route} from 'react-router-dom'
 
 import Recovery from './routes/RecoveryPage'
 import CloudPage from './routes/CloudPage'
@@ -11,7 +11,7 @@ import ContactPage from './routes/ContactPage'
 import AboutPage from './routes/AboutPage'
 
 ReactDOM.render(
-  <BrowserRouter>
+  <HashRouter>
     <Routes>
       <Route path='/' element={<App />} />
       <Route path='/recovery' element={<Recovery />} />
@@ -19,7 +19,7 @@ ReactDOM.render(
       <Route path='/about' element={<AboutPage/>}/>
       <Route path='/contact' element={<ContactPage />} />
     </Routes>
-  </BrowserRouter>,
+  </HashRouter>,
   document.getElementById('root')
 );
 
